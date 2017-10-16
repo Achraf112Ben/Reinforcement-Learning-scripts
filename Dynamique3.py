@@ -30,13 +30,13 @@ while True:
     Vm = Vm2
     it+=1
     print("itteration: ",it)
-    print("Vb = ",Vb)
-    print("Vr = ",Vr)
-    print("Vj = ",Vj)
-    print("Vg = ",Vg)
-    print("Vo = ",Vo)
-    print("Vv = ",Vv)
-    print("Vm = ",Vm)
+    print("Vb = ",Vb," = ", float(Vb))
+    print("Vr = ",Vr," = ", float(Vr))
+    print("Vj = ",Vj," = ", float(Vj))
+    print("Vg = ",Vg," = ", float(Vg))
+    print("Vo = ",Vo," = ", float(Vo))
+    print("Vv = ",Vv," = ", float(Vv))
+    print("Vm = ",Vm," = ", float(Vm))
     print("err_max = ",err_max)
     if (err_max < err_voulu):
         break
